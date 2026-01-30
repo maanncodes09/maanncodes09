@@ -1,4 +1,10 @@
-## Hi there 👋
+## ## Hi, I'm Mansi 👋
+
+I'm a BTech CSE student actively working towards becoming a strong backend developer.  
+I focus on learning by building — writing clean code, understanding core concepts, and improving a little every day.
+
+This GitHub is my progress log: projects, experiments, and problem-solving as I prepare for internships and real-world development.
+
 
 <!--
 **maanncodes09/maanncodes09** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
