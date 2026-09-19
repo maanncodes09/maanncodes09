@@ -99,7 +99,7 @@ Building my foundation in Data Structures, Full-Stack Development, and Backend E
 ## 🤝 Connect With Me
 
 <p align="left">
-  <a href="https://www.linkedin.com/in/www.linkedin.com/in/mansi-agarwal-316262332/" target="_blank">
+  <a href="https://www.linkedin.com/in/mansi-agarwal-316262332/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="https://github.com/maanncodes09" target="_blank">
