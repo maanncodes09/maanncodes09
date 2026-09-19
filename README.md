@@ -70,6 +70,29 @@ Building my foundation in Data Structures, Full-Stack Development, and Backend E
   />
 </p>
 
+
+
+---
+
+## 🐍 Contribution Snake
+
+<p align="center">
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://raw.githubusercontent.com/maanncodes09/maanncodes09/output/github-snake-dark.svg"
+    />
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://raw.githubusercontent.com/maanncodes09/maanncodes09/output/github-snake.svg"
+    />
+    <img
+      src="https://raw.githubusercontent.com/maanncodes09/maanncodes09/output/github-snake.svg"
+      alt="GitHub Contribution Snake"
+    />
+  </picture>
+</p>
+
 ## 🤝 Connect With Me
 
 [GitHub](https://github.com/maanncodes09) • [LinkedIn](www.linkedin.com/in/mansi-agarwal-316262332)
