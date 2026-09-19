@@ -60,11 +60,12 @@ Building my foundation in Data Structures, Full-Stack Development, and Backend E
 
 ---
 
+
 ## 📊 GitHub Stats
 
 <p align="center">
   <img
-    src="./profile/stats.svg"
+    src="https://github-readme-stats.vercel.app/api?username=maanncodes09&show_icons=true&theme=tokyonight"
     alt="GitHub Stats"
   />
 </p>
