@@ -1,7 +1,11 @@
+<div align="center">
+  <img src="./github-banner.png" alt="Sky's GitHub Banner" width="100%">
+</div>
+
 ## ## Hi, I'm Mansi 👋
 
 
-# Hi, I'm Sky 👋
+
 
 ### B.Tech CSE Student | Aspiring Software Engineer
 
