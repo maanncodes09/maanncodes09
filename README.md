@@ -60,6 +60,15 @@ Building my foundation in Data Structures, Full-Stack Development, and Backend E
 
 ---
 
+## 📊 GitHub Stats
+
+<p align="center">
+  <img
+    src="./profile/stats.svg"
+    alt="GitHub Stats"
+  />
+</p>
+
 ## 🤝 Connect With Me
 
 [GitHub](https://github.com/maanncodes09) • [LinkedIn](www.linkedin.com/in/mansi-agarwal-316262332)
