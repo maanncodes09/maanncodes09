@@ -1,22 +1,50 @@
 ## ## Hi, I'm Mansi 👋
 
-I'm a BTech CSE student actively working towards becoming a strong backend developer.  
-I focus on learning by building — writing clean code, understanding core concepts, and improving a little every day.
 
-This GitHub is my progress log: projects, experiments, and problem-solving as I prepare for internships and real-world development.
+# Hi, I'm Sky 👋
 
+### B.Tech CSE Student | Aspiring Software Engineer
 
-<!--
-**maanncodes09/maanncodes09** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Building my foundation in Data Structures, Full-Stack Development, and Backend Engineering.
 
-Here are some ideas to get you started:
+- 🔭 Currently working on improving my development skills
+- 🌱 Learning JavaScript, React, and Backend Development
+- 💻 Practicing DSA with Java
+- 🚀 Interested in scalable systems and real-world projects
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+## 🛠️ Tech Stack
+
+### Languages
+Java • JavaScript • C • SQL
+
+### Frontend
+HTML • CSS • React
+
+### Backend
+Node.js • Express.js • REST APIs
+
+### Databases & Tools
+MongoDB • PostgreSQL • Git • GitHub • Postman
+
+---
+
+## 🚀 Featured Projects
+
+> Projects will be added here as they become ready.
+
+---
+
+## 📈 Current Focus
+
+- Data Structures & Algorithms
+- JavaScript & React
+- Backend Development
+- System Design Fundamentals
+
+---
+
+## 🤝 Connect With Me
+
+[GitHub](https://github.com/maanncodes09) • [LinkedIn](www.linkedin.com/in/mansi-agarwal-316262332)
