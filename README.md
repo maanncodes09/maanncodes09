@@ -18,21 +18,32 @@ Building my foundation in Data Structures, Full-Stack Development, and Backend E
 
 ---
 
+
 ## 🛠️ Tech Stack
 
 ### Languages
-Java • JavaScript • C • SQL
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=java,js,c,sql" />
+</p>
 
 ### Frontend
-HTML • CSS • React
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=html,css,react" />
+</p>
 
 ### Backend
-Node.js • Express.js • REST APIs
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=nodejs,express" />
+</p>
 
 ### Databases & Tools
-MongoDB • PostgreSQL • Git • GitHub • Postman
 
----
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=mongodb,postgres,git,github,postman" />
+</p>---
 
 ## 🚀 Featured Projects
 
