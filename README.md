@@ -1,66 +1,4 @@
-from PIL import Image, ImageDraw, ImageFont, ImageFilter
-from pathlib import Path
-import os, textwrap
-
-src = Path("/mnt/data/animated_neon_cyberpunk_landscape.png")
-out_dir = Path("/mnt/data/github_profile_redesign")
-out_dir.mkdir(exist_ok=True)
-
-im = Image.open(src)
-frames = []
-for i in range(getattr(im, "n_frames", 1)):
-    im.seek(i)
-    frame = im.convert("RGB").resize((1280, 400), Image.Resampling.LANCZOS)
-
-    # Add a restrained dark overlay so the typography remains readable.
-    overlay = Image.new("RGBA", frame.size, (4, 6, 12, 88))
-    frame = Image.alpha_composite(frame.convert("RGBA"), overlay)
-
-    # Soft dark vignette behind the centered typography.
-    vignette = Image.new("RGBA", frame.size, (0, 0, 0, 0))
-    vd = ImageDraw.Draw(vignette)
-    vd.rounded_rectangle((260, 70, 1020, 330), radius=22, fill=(3, 5, 10, 95))
-    vignette = vignette.filter(ImageFilter.GaussianBlur(32))
-    frame = Image.alpha_composite(frame, vignette)
-
-    draw = ImageDraw.Draw(frame)
-    font_path = "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
-    bold_path = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
-    name_font = ImageFont.truetype(bold_path, 58)
-    sub_font = ImageFont.truetype(font_path, 18)
-    tag_font = ImageFont.truetype(bold_path, 15)
-
-    # Centered title and restrained metadata.
-    title = "MANSI AGARWAL"
-    bbox = draw.textbbox((0, 0), title, font=name_font)
-    tw = bbox[2] - bbox[0]
-    draw.text(((1280 - tw) / 2, 132), title, font=name_font, fill=(247, 248, 252, 255),
-              stroke_width=1, stroke_fill=(10, 12, 20, 180))
-
-    subtitle = "BUILD  ·  SOLVE  ·  EVOLVE"
-    bbox = draw.textbbox((0, 0), subtitle, font=sub_font)
-    sw = bbox[2] - bbox[0]
-    draw.text(((1280 - sw) / 2, 218), subtitle, font=sub_font, fill=(204, 194, 218, 255))
-
-    meta = "SOFTWARE ENGINEERING  /  BACKEND SYSTEMS  /  FULL-STACK DEVELOPMENT"
-    bbox = draw.textbbox((0, 0), meta, font=tag_font)
-    mw = bbox[2] - bbox[0]
-    draw.text(((1280 - mw) / 2, 270), meta, font=tag_font, fill=(157, 166, 188, 255))
-
-    frames.append(frame.convert("P", palette=Image.Palette.ADAPTIVE, colors=128))
-
-gif_path = out_dir / "mansi-animated-hero.gif"
-frames[0].save(
-    gif_path,
-    save_all=True,
-    append_images=frames[1:],
-    duration=500,
-    loop=0,
-    optimize=True,
-    disposal=2
-)
-
-readme = r'''<div align="center">
+<div align="center">
 
 <img src="mansi-animated-hero.gif" width="100%" alt="Mansi Agarwal — Build, Solve, Evolve" />
 
@@ -206,10 +144,3 @@ readme = r'''<div align="center">
 <sub>BUILD WITH INTENTION. KEEP GETTING BETTER.</sub>
 
 </div>
-'''
-
-readme_path = out_dir / "README.md"
-readme_path.write_text(readme, encoding="utf-8")
-
-print(f"Created: {gif_path} ({gif_path.stat().st_size/1024:.1f} KB)")
-print(f"Created: {readme_path} ({readme_path.stat().st_size/1024:.1f} KB)")
