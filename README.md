@@ -1,125 +1,260 @@
-# Mansi Agarwal
+<!-- =========================================
+     MANSI AGARWAL | GITHUB PROFILE
+     Premium Dark Engineering Portfolio
+     ========================================= -->
 
-### Aspiring Software Engineer | Full-Stack & Backend Development
+<div align="center">
 
-Building practical applications, strengthening engineering fundamentals, and exploring how reliable software systems are designed.
+<img src="github-banner.png" width="100%" alt="Mansi Agarwal | Build. Solve. Evolve."/>
 
-I'm a Computer Science undergraduate interested in **backend engineering, full-stack development, data structures & algorithms, and scalable systems**.
+</div>
 
-I enjoy turning ideas into functional applications, understanding how things work behind the scenes, and continuously improving the quality of what I build.
+<br/>
 
----
+<table width="100%">
+<tr>
+<td width="33%" valign="top">
 
-## About Me
+<h3 align="center">01 / BUILD</h3>
 
-- 🎓 B.Tech Computer Science & Engineering student
-- 💻 Practicing Data Structures & Algorithms using Java
-- ⚙️ Building full-stack applications with the MERN stack
-- 🗄️ Exploring database design, REST APIs, and backend architecture
-- 🧩 Interested in problem-solving and real-world engineering challenges
-- 🚀 Always looking for opportunities to learn, build, and collaborate
+<h2 align="center">Create</h2>
 
----
+<p align="center">
+Building practical applications and turning ideas into working software.
+</p>
 
-## Technical Skills
+<p align="center">
+<a href="https://github.com/maanncodes09?tab=repositories">EXPLORE PROJECTS ↗</a>
+</p>
 
-**Languages**
+</td>
+<td width="33%" valign="top">
+
+<h3 align="center">02 / ENGINEERING</h3>
+
+<h2 align="center">Explore</h2>
+
+<p align="center">
+Java, DSA, backend development, APIs and software architecture.
+</p>
+
+<p align="center">
+<a href="https://github.com/maanncodes09">EXPLORE GITHUB ↗</a>
+</p>
+
+</td>
+<td width="33%" valign="top">
+
+<h3 align="center">03 / COMMUNITY</h3>
+
+<h2 align="center">Connect</h2>
+
+<p align="center">
+Open to meaningful collaborations, new ideas and engineering opportunities.
+</p>
+
+<p align="center">
+<a href="https://github.com/maanncodes09">SAY HELLO ↗</a>
+</p>
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+## 01 / ABOUT ME
+
+**Hey, I'm Mansi.**
+
+I'm a Computer Science undergraduate focused on becoming a strong software engineer.
+
+I enjoy building full-stack applications, understanding backend systems, solving algorithmic problems and exploring how reliable software is designed.
+
+- 🎓 B.Tech Computer Science & Engineering
+- 💻 Practicing DSA using Java
+- ⚙️ Building applications with the MERN stack
+- 🗄️ Exploring databases, REST APIs and backend architecture
+- 🚀 Interested in real-world engineering problems and collaboration
+
+<br/>
+
+## 02 / TECHNICAL EXPERTISE
+
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
+
+**LANGUAGES**
 
 ![Java](https://img.shields.io/badge/Java-111827?style=flat-square&logo=openjdk&logoColor=ED8B00)
 ![JavaScript](https://img.shields.io/badge/JavaScript-111827?style=flat-square&logo=javascript&logoColor=F7DF1E)
 
-**Frontend Development**
+**FRONTEND**
 
 ![HTML5](https://img.shields.io/badge/HTML5-111827?style=flat-square&logo=html5&logoColor=E34F26)
 ![CSS3](https://img.shields.io/badge/CSS3-111827?style=flat-square&logo=css3&logoColor=1572B6)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-111827?style=flat-square&logo=bootstrap&logoColor=7952B3)
 ![React](https://img.shields.io/badge/React-111827?style=flat-square&logo=react&logoColor=61DAFB)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-111827?style=flat-square&logo=bootstrap&logoColor=7952B3)
 
-**Backend Development**
+</td>
+<td width="50%" valign="top">
+
+**BACKEND**
 
 ![Node.js](https://img.shields.io/badge/Node.js-111827?style=flat-square&logo=nodedotjs&logoColor=5FA04E)
-![Express.js](https://img.shields.io/badge/Express.js-111827?style=flat-square&logo=express&logoColor=FFFFFF)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-111827?style=flat-square&logo=springboot&logoColor=6DB33F)
+![Express](https://img.shields.io/badge/Express-111827?style=flat-square&logo=express&logoColor=FFFFFF)
 
-**Databases**
+**DATABASES**
 
 ![MongoDB](https://img.shields.io/badge/MongoDB-111827?style=flat-square&logo=mongodb&logoColor=47A248)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-111827?style=flat-square&logo=postgresql&logoColor=4169E1)
 
-**Tools & Platforms**
+**TOOLS**
 
 ![Git](https://img.shields.io/badge/Git-111827?style=flat-square&logo=git&logoColor=F05032)
 ![GitHub](https://img.shields.io/badge/GitHub-111827?style=flat-square&logo=github&logoColor=FFFFFF)
 ![Postman](https://img.shields.io/badge/Postman-111827?style=flat-square&logo=postman&logoColor=FF6C37)
-![Docker](https://img.shields.io/badge/Docker-111827?style=flat-square&logo=docker&logoColor=2496ED)
 
----
+</td>
+</tr>
+</table>
 
-## Featured Projects
+<br/>
 
-A selection of applications and engineering projects I'm building.
+## 03 / SELECTED PROJECTS
+
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
 
 ### 01. Personal Finance Dashboard
-A financial management application designed to help users track income, expenses, savings, and budgets through an interactive dashboard.
 
-**Focus:** Financial tracking · Data visualization · Budget management
+A financial management platform for tracking income, expenses, budgets and savings.
 
-**Stack:** MongoDB · Express.js · React · Node.js
+**Focus areas**
+- Financial analytics
+- Budget management
+- Transaction management
+- Data visualization
+
+`MERN STACK`
+
+<a href="https://github.com/maanncodes09?tab=repositories">VIEW PROJECT ↗</a>
+
+</td>
+<td width="50%" valign="top">
 
 ### 02. FlowBoard
-A Kanban-style task management workspace featuring drag-and-drop interactions, task organization, filters, and undo/redo functionality.
 
-**Focus:** State management · Interactive UI · Task organization
+A Kanban-style task management workspace with interactive task organization.
 
-**Stack:** HTML · CSS · JavaScript
+**Focus areas**
+- Drag and drop
+- Undo and redo
+- Task filtering
+- State management
+
+`HTML · CSS · JAVASCRIPT`
+
+<a href="https://github.com/maanncodes09/TaskFlow---Smart-Task-Management-System">VIEW PROJECT ↗</a>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
 ### 03. Food²
-A restaurant web application with menu browsing, reservations, authentication, and backend API integration.
 
-**Focus:** REST APIs · Authentication · Database integration
+A restaurant web application with menu browsing, reservations and authentication.
 
-**Stack:** MongoDB · Express.js · JavaScript · HTML · CSS · Bootstrap
+**Focus areas**
+- REST API integration
+- Authentication
+- Database operations
+- Reservation workflows
 
-### 04. Enterprise Helpdesk & Incident Management System
-An upcoming collaborative engineering project focused on managing support tickets, incidents, workflows, and issue resolution.
+`MERN STACK`
 
-**Focus:** Backend architecture · Role-based access · REST APIs · Database design
+<a href="https://github.com/maanncodes09?tab=repositories">VIEW PROJECT ↗</a>
 
-**Status:** In planning / development
+</td>
+<td width="50%" valign="top">
 
----
+### 04. Enterprise Helpdesk System
 
-## Currently Exploring
+A collaborative project exploring enterprise ticket and incident management.
 
-- Backend engineering and API design
-- Authentication and authorization
-- Database modeling and query optimization
-- Data Structures & Algorithms
-- System design fundamentals
-- Writing clean, maintainable code
+**Planned focus areas**
+- Ticket lifecycle management
+- Role-based access control
+- Backend workflows
+- Database design
 
----
+`MERN STACK · IN DEVELOPMENT`
 
-## GitHub Activity
+</td>
+</tr>
+</table>
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=maanncodes09&show_icons=true&hide_border=true&bg_color=080D1A&title_color=60A5FA&icon_color=818CF8&text_color=C9D1D9&rank_icon=github)
+<br/>
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=maanncodes09&layout=compact&hide_border=true&bg_color=080D1A&title_color=60A5FA&text_color=C9D1D9)
+## 04 / ENGINEERING ACTIVITY
 
----
+<div align="center">
 
-## Let's Connect
+<img width="100%" src="https://github-readme-stats.vercel.app/api?username=maanncodes09&show_icons=true&hide_border=true&bg_color=080D1A&title_color=60A5FA&icon_color=818CF8&text_color=C9D1D9&rank_icon=github" alt="GitHub statistics"/>
 
-I'm open to collaborating on meaningful projects, connecting with fellow developers, and exploring internship opportunities.
+<br/><br/>
 
-[![GitHub](https://img.shields.io/badge/GitHub-111827?style=for-the-badge&logo=github&logoColor=white)](https://github.com/maanncodes09)
+<img width="100%" src="https://github-readme-streak-stats.herokuapp.com/?user=maanncodes09&theme=transparent&hide_border=true&background=080D1A&ring=60A5FA&fire=818CF8&currStreakLabel=60A5FA&sideLabels=C9D1D9&dates=94A3B8" alt="GitHub contribution streak"/>
 
-<!-- Add your LinkedIn and professional email links here when ready -->
-LinkedIn: https://www.linkedin.com/in/mansi-agarwal-316262332/
-Mail: mansiagarwal.1805@gmail.com
+<br/><br/>
 
----
+<img width="70%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=maanncodes09&layout=compact&hide_border=true&bg_color=080D1A&title_color=60A5FA&text_color=C9D1D9" alt="Most used programming languages"/>
 
-<p align="center">
-  <i>Small steps. Consistent progress. Better engineering.</i>
-</p>
+</div>
+
+<br/>
+
+## 05 / CURRENTLY EXPLORING
+
+| Area | Focus |
+|:---|:---|
+| Data Structures & Algorithms | Problem-solving with Java |
+| Backend Engineering | API design and authentication |
+| Databases | Data modeling and query optimization |
+| System Design | Scalable software fundamentals |
+| Full-Stack Development | Building complete applications |
+
+<br/>
+
+## 06 / ACHIEVEMENTS & COMMUNITY
+
+- Google Summer of Code / GirlScript Summer of Code — GSSoC 2026 Contributor
+- SheFi Season 16 — Scholarship recipient
+- MongoDB Student Basic Certification
+
+<br/>
+
+## 07 / LET'S CONNECT
+
+<div align="center">
+
+<a href="https://github.com/maanncodes09">
+  <img src="https://img.shields.io/badge/GitHub-111827?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+<a href="https://www.linkedin.com/in/https://www.linkedin.com/in/mansi-agarwal-316262332/"/>
+  <img src="https://img.shields.io/badge/LinkedIn-111827?style=for-the-badge&logo=linkedin&logoColor=0A66C2" />
+</a>
+<a href="mailto:mansiagarwal.1805@gmail.com">
+  <img src="https://img.shields.io/badge/Email-111827?style=for-the-badge&logo=gmail&logoColor=EA4335" />
+</a>
+
+<br/><br/>
+
+**BUILD. SOLVE. EVOLVE.**
+
+<sub>Consistent progress. Better engineering. Meaningful work.</sub>
+
+</div>
