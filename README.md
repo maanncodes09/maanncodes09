@@ -1,260 +1,215 @@
-<!-- =========================================
-     MANSI AGARWAL | GITHUB PROFILE
-     Premium Dark Engineering Portfolio
-     ========================================= -->
+from PIL import Image, ImageDraw, ImageFont, ImageFilter
+from pathlib import Path
+import os, textwrap
 
-<div align="center">
+src = Path("/mnt/data/animated_neon_cyberpunk_landscape.png")
+out_dir = Path("/mnt/data/github_profile_redesign")
+out_dir.mkdir(exist_ok=True)
 
-<img src="github-banner.png" width="100%" alt="Mansi Agarwal | Build. Solve. Evolve."/>
+im = Image.open(src)
+frames = []
+for i in range(getattr(im, "n_frames", 1)):
+    im.seek(i)
+    frame = im.convert("RGB").resize((1280, 400), Image.Resampling.LANCZOS)
+
+    # Add a restrained dark overlay so the typography remains readable.
+    overlay = Image.new("RGBA", frame.size, (4, 6, 12, 88))
+    frame = Image.alpha_composite(frame.convert("RGBA"), overlay)
+
+    # Soft dark vignette behind the centered typography.
+    vignette = Image.new("RGBA", frame.size, (0, 0, 0, 0))
+    vd = ImageDraw.Draw(vignette)
+    vd.rounded_rectangle((260, 70, 1020, 330), radius=22, fill=(3, 5, 10, 95))
+    vignette = vignette.filter(ImageFilter.GaussianBlur(32))
+    frame = Image.alpha_composite(frame, vignette)
+
+    draw = ImageDraw.Draw(frame)
+    font_path = "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
+    bold_path = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
+    name_font = ImageFont.truetype(bold_path, 58)
+    sub_font = ImageFont.truetype(font_path, 18)
+    tag_font = ImageFont.truetype(bold_path, 15)
+
+    # Centered title and restrained metadata.
+    title = "MANSI AGARWAL"
+    bbox = draw.textbbox((0, 0), title, font=name_font)
+    tw = bbox[2] - bbox[0]
+    draw.text(((1280 - tw) / 2, 132), title, font=name_font, fill=(247, 248, 252, 255),
+              stroke_width=1, stroke_fill=(10, 12, 20, 180))
+
+    subtitle = "BUILD  ·  SOLVE  ·  EVOLVE"
+    bbox = draw.textbbox((0, 0), subtitle, font=sub_font)
+    sw = bbox[2] - bbox[0]
+    draw.text(((1280 - sw) / 2, 218), subtitle, font=sub_font, fill=(204, 194, 218, 255))
+
+    meta = "SOFTWARE ENGINEERING  /  BACKEND SYSTEMS  /  FULL-STACK DEVELOPMENT"
+    bbox = draw.textbbox((0, 0), meta, font=tag_font)
+    mw = bbox[2] - bbox[0]
+    draw.text(((1280 - mw) / 2, 270), meta, font=tag_font, fill=(157, 166, 188, 255))
+
+    frames.append(frame.convert("P", palette=Image.Palette.ADAPTIVE, colors=128))
+
+gif_path = out_dir / "mansi-animated-hero.gif"
+frames[0].save(
+    gif_path,
+    save_all=True,
+    append_images=frames[1:],
+    duration=500,
+    loop=0,
+    optimize=True,
+    disposal=2
+)
+
+readme = r'''<div align="center">
+
+<img src="mansi-animated-hero.gif" width="100%" alt="Mansi Agarwal — Build, Solve, Evolve" />
+
+<br/>
+
+<sub>SOFTWARE ENGINEERING &nbsp; / &nbsp; BACKEND SYSTEMS &nbsp; / &nbsp; FULL-STACK DEVELOPMENT</sub>
 
 </div>
 
 <br/>
 
-<table width="100%">
-<tr>
-<td width="33%" valign="top">
+<table>
+  <tr>
+    <td width="56%" valign="top">
 
-<h3 align="center">01 / BUILD</h3>
+      <sub>01 / ABOUT</sub>
+      <h2>Building things that matter.</h2>
+      Computer Science undergraduate interested in backend engineering, full-stack development and solving practical problems through software.
 
-<h2 align="center">Create</h2>
+      <br/><br/>
+      <a href="https://github.com/maanncodes09?tab=repositories">EXPLORE MY WORK ↗</a>
 
-<p align="center">
-Building practical applications and turning ideas into working software.
-</p>
+    </td>
+    <td width="44%" valign="top">
 
-<p align="center">
-<a href="https://github.com/maanncodes09?tab=repositories">EXPLORE PROJECTS ↗</a>
-</p>
+      <sub>02 / ALWAYS LEARNING</sub>
+      <h3>Engineering, one layer deeper.</h3>
+      Java & DSA<br/>
+      Backend APIs<br/>
+      Databases<br/>
+      System design fundamentals
 
-</td>
-<td width="33%" valign="top">
+      <br/><br/>
+      <sub>03 / OPEN TO</sub><br/>
+      Collaboration · Internships · Interesting problems
 
-<h3 align="center">02 / ENGINEERING</h3>
-
-<h2 align="center">Explore</h2>
-
-<p align="center">
-Java, DSA, backend development, APIs and software architecture.
-</p>
-
-<p align="center">
-<a href="https://github.com/maanncodes09">EXPLORE GITHUB ↗</a>
-</p>
-
-</td>
-<td width="33%" valign="top">
-
-<h3 align="center">03 / COMMUNITY</h3>
-
-<h2 align="center">Connect</h2>
-
-<p align="center">
-Open to meaningful collaborations, new ideas and engineering opportunities.
-</p>
-
-<p align="center">
-<a href="https://github.com/maanncodes09">SAY HELLO ↗</a>
-</p>
-
-</td>
-</tr>
+    </td>
+  </tr>
 </table>
 
 <br/>
 
-## 01 / ABOUT ME
+## 04 / SELECTED WORK
 
-**Hey, I'm Mansi.**
-
-I'm a Computer Science undergraduate focused on becoming a strong software engineer.
-
-I enjoy building full-stack applications, understanding backend systems, solving algorithmic problems and exploring how reliable software is designed.
-
-- 🎓 B.Tech Computer Science & Engineering
-- 💻 Practicing DSA using Java
-- ⚙️ Building applications with the MERN stack
-- 🗄️ Exploring databases, REST APIs and backend architecture
-- 🚀 Interested in real-world engineering problems and collaboration
-
-<br/>
-
-## 02 / TECHNICAL EXPERTISE
-
-<table width="100%">
-<tr>
-<td width="50%" valign="top">
-
-**LANGUAGES**
-
-![Java](https://img.shields.io/badge/Java-111827?style=flat-square&logo=openjdk&logoColor=ED8B00)
-![JavaScript](https://img.shields.io/badge/JavaScript-111827?style=flat-square&logo=javascript&logoColor=F7DF1E)
-
-**FRONTEND**
-
-![HTML5](https://img.shields.io/badge/HTML5-111827?style=flat-square&logo=html5&logoColor=E34F26)
-![CSS3](https://img.shields.io/badge/CSS3-111827?style=flat-square&logo=css3&logoColor=1572B6)
-![React](https://img.shields.io/badge/React-111827?style=flat-square&logo=react&logoColor=61DAFB)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-111827?style=flat-square&logo=bootstrap&logoColor=7952B3)
-
-</td>
-<td width="50%" valign="top">
-
-**BACKEND**
-
-![Node.js](https://img.shields.io/badge/Node.js-111827?style=flat-square&logo=nodedotjs&logoColor=5FA04E)
-![Express](https://img.shields.io/badge/Express-111827?style=flat-square&logo=express&logoColor=FFFFFF)
-
-**DATABASES**
-
-![MongoDB](https://img.shields.io/badge/MongoDB-111827?style=flat-square&logo=mongodb&logoColor=47A248)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-111827?style=flat-square&logo=postgresql&logoColor=4169E1)
-
-**TOOLS**
-
-![Git](https://img.shields.io/badge/Git-111827?style=flat-square&logo=git&logoColor=F05032)
-![GitHub](https://img.shields.io/badge/GitHub-111827?style=flat-square&logo=github&logoColor=FFFFFF)
-![Postman](https://img.shields.io/badge/Postman-111827?style=flat-square&logo=postman&logoColor=FF6C37)
-
-</td>
-</tr>
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <sub>01 — FULL-STACK</sub>
+      <h3>Personal Finance Dashboard</h3>
+      A finance management application for tracking income, expenses, budgets and savings.
+      <br/><br/>
+      <code>React</code> <code>Node.js</code> <code>Express</code> <code>MongoDB</code>
+      <br/><br/>
+      <a href="https://github.com/maanncodes09?tab=repositories">FIND REPOSITORY ↗</a>
+    </td>
+    <td width="50%" valign="top">
+      <sub>02 — FRONTEND ENGINEERING</sub>
+      <h3>FlowBoard</h3>
+      A Kanban-style task workspace with drag-and-drop, filters, labels and undo/redo.
+      <br/><br/>
+      <code>JavaScript</code> <code>HTML</code> <code>CSS</code>
+      <br/><br/>
+      <a href="https://github.com/maanncodes09/TaskFlow---Smart-Task-Management-System">VIEW REPOSITORY ↗</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <sub>03 — FULL-STACK</sub>
+      <h3>Food²</h3>
+      Restaurant application with menu browsing, reservations, authentication and API integration.
+      <br/><br/>
+      <code>MongoDB</code> <code>Express</code> <code>JavaScript</code>
+      <br/><br/>
+      <a href="https://github.com/maanncodes09?tab=repositories">FIND REPOSITORY ↗</a>
+    </td>
+    <td width="50%" valign="top">
+      <sub>04 — IN DEVELOPMENT</sub>
+      <h3>Enterprise Helpdesk</h3>
+      Collaborative incident-management platform exploring ticket workflows, role-based access and backend architecture.
+      <br/><br/>
+      <code>MERN</code> <code>REST APIs</code> <code>Database Design</code>
+      <br/><br/>
+      <sub>IN DEVELOPMENT</sub>
+    </td>
+  </tr>
 </table>
 
 <br/>
 
-## 03 / SELECTED PROJECTS
+## 05 / TOOLKIT
 
-<table width="100%">
-<tr>
-<td width="50%" valign="top">
+**LANGUAGES**<br/>
+`Java` &nbsp; `JavaScript`
 
-### 01. Personal Finance Dashboard
+**FRONTEND**<br/>
+`HTML` &nbsp; `CSS` &nbsp; `React` &nbsp; `Bootstrap`
 
-A financial management platform for tracking income, expenses, budgets and savings.
+**BACKEND**<br/>
+`Node.js` &nbsp; `Express.js`
 
-**Focus areas**
-- Financial analytics
-- Budget management
-- Transaction management
-- Data visualization
+**DATABASES**<br/>
+`MongoDB` &nbsp; `PostgreSQL`
 
-`MERN STACK`
-
-<a href="https://github.com/maanncodes09?tab=repositories">VIEW PROJECT ↗</a>
-
-</td>
-<td width="50%" valign="top">
-
-### 02. FlowBoard
-
-A Kanban-style task management workspace with interactive task organization.
-
-**Focus areas**
-- Drag and drop
-- Undo and redo
-- Task filtering
-- State management
-
-`HTML · CSS · JAVASCRIPT`
-
-<a href="https://github.com/maanncodes09/TaskFlow---Smart-Task-Management-System">VIEW PROJECT ↗</a>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 03. Food²
-
-A restaurant web application with menu browsing, reservations and authentication.
-
-**Focus areas**
-- REST API integration
-- Authentication
-- Database operations
-- Reservation workflows
-
-`MERN STACK`
-
-<a href="https://github.com/maanncodes09?tab=repositories">VIEW PROJECT ↗</a>
-
-</td>
-<td width="50%" valign="top">
-
-### 04. Enterprise Helpdesk System
-
-A collaborative project exploring enterprise ticket and incident management.
-
-**Planned focus areas**
-- Ticket lifecycle management
-- Role-based access control
-- Backend workflows
-- Database design
-
-`MERN STACK · IN DEVELOPMENT`
-
-</td>
-</tr>
-</table>
+**TOOLS**<br/>
+`Git` &nbsp; `GitHub` &nbsp; `Postman`
 
 <br/>
 
-## 04 / ENGINEERING ACTIVITY
+## 06 / ENGINEERING ACTIVITY
 
 <div align="center">
 
-<img width="100%" src="https://github-readme-stats.vercel.app/api?username=maanncodes09&show_icons=true&hide_border=true&bg_color=080D1A&title_color=60A5FA&icon_color=818CF8&text_color=C9D1D9&rank_icon=github" alt="GitHub statistics"/>
+<img src="https://github-readme-stats.vercel.app/api?username=maanncodes09&show_icons=true&hide_border=true&bg_color=0B0C12&title_color=C9B3D8&icon_color=8E78A8&text_color=D6D2DC" height="165" alt="GitHub statistics" />
 
-<br/><br/>
-
-<img width="100%" src="https://github-readme-streak-stats.herokuapp.com/?user=maanncodes09&theme=transparent&hide_border=true&background=080D1A&ring=60A5FA&fire=818CF8&currStreakLabel=60A5FA&sideLabels=C9D1D9&dates=94A3B8" alt="GitHub contribution streak"/>
-
-<br/><br/>
-
-<img width="70%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=maanncodes09&layout=compact&hide_border=true&bg_color=080D1A&title_color=60A5FA&text_color=C9D1D9" alt="Most used programming languages"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=maanncodes09&layout=compact&hide_border=true&bg_color=0B0C12&title_color=C9B3D8&text_color=D6D2DC" height="165" alt="Top languages" />
 
 </div>
 
 <br/>
 
-## 05 / CURRENTLY EXPLORING
+## 07 / COMMUNITY & MILESTONES
 
-| Area | Focus |
-|:---|:---|
-| Data Structures & Algorithms | Problem-solving with Java |
-| Backend Engineering | API design and authentication |
-| Databases | Data modeling and query optimization |
-| System Design | Scalable software fundamentals |
-| Full-Stack Development | Building complete applications |
-
-<br/>
-
-## 06 / ACHIEVEMENTS & COMMUNITY
-
-- Google Summer of Code / GirlScript Summer of Code — GSSoC 2026 Contributor
+- GirlScript Summer of Code 2026 — Contributor
 - SheFi Season 16 — Scholarship recipient
-- MongoDB Student Basic Certification
+- MongoDB Student Basic — Certification
 
 <br/>
 
-## 07 / LET'S CONNECT
+## 08 / FIND ME
 
 <div align="center">
 
-<a href="https://github.com/maanncodes09">
-  <img src="https://img.shields.io/badge/GitHub-111827?style=for-the-badge&logo=github&logoColor=white" />
-</a>
-<a href="https://www.linkedin.com/in/https://www.linkedin.com/in/mansi-agarwal-316262332/"/>
-  <img src="https://img.shields.io/badge/LinkedIn-111827?style=for-the-badge&logo=linkedin&logoColor=0A66C2" />
-</a>
-<a href="mailto:mansiagarwal.1805@gmail.com">
-  <img src="https://img.shields.io/badge/Email-111827?style=for-the-badge&logo=gmail&logoColor=EA4335" />
-</a>
+<a href="https://github.com/maanncodes09">GitHub</a>
+&nbsp; · &nbsp;
+<!-- Replace the placeholder below with your LinkedIn profile URL -->
+<a href="https://www.linkedin.com/">LinkedIn</a>
+&nbsp; · &nbsp;
+<!-- Replace the placeholder below with your professional email address -->
+<a href="mailto:YOUR_EMAIL@example.com">Email</a>
 
 <br/><br/>
 
-**BUILD. SOLVE. EVOLVE.**
-
-<sub>Consistent progress. Better engineering. Meaningful work.</sub>
+<sub>BUILD WITH INTENTION. KEEP GETTING BETTER.</sub>
 
 </div>
+'''
+
+readme_path = out_dir / "README.md"
+readme_path.write_text(readme, encoding="utf-8")
+
+print(f"Created: {gif_path} ({gif_path.stat().st_size/1024:.1f} KB)")
+print(f"Created: {readme_path} ({readme_path.stat().st_size/1024:.1f} KB)")
