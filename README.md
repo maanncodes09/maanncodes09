@@ -148,27 +148,19 @@ A restaurant web application with menu browsing, reservation functionality, auth
 ---
 
 
+
 ## 05 / GITHUB ANALYTICS
 
 <div align="center">
 
-<!-- GitHub Stats -->
 <img
-  width="49%"
-  src="https://github-stats-extended.vercel.app/api?username=maanncodes09&show_icons=true&hide_border=true&bg_color=0D0B0F&title_color=C58A9B&icon_color=8FAF9A&text_color=D8D1D5"
-  alt="GitHub statistics"
-/>
-
-<!-- Most Used Languages -->
-<img
-  width="49%"
-  src="https://github-stats-extended.vercel.app/api/top-langs/?username=maanncodes09&layout=compact&hide_border=true&bg_color=0D0B0F&title_color=C58A9B&text_color=D8D1D5"
-  alt="Most used languages"
+  src="./github-metrics.svg"
+  width="100%"
+  alt="GitHub profile metrics"
 />
 
 <br/>
 
-<!-- Contribution Streak -->
 <img
   width="70%"
   src="https://streak-stats.demolab.com?user=maanncodes09&hide_border=true&background=0D0B0F&ring=C58A9B&fire=C58A9B&currStreakLabel=C58A9B&sideLabels=D8D1D5&currStreakNum=D8D1D5&sideNums=D8D1D5&dates=8A838B"
