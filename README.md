@@ -147,25 +147,35 @@ A restaurant web application with menu browsing, reservation functionality, auth
 
 ---
 
+
 ## 05 / GITHUB ANALYTICS
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=maanncodes09&show_icons=true&hide_border=true&bg_color=0D0B0F&title_color=C58A9B&icon_color=8FAF9A&text_color=D8D1D5&ring_color=9B718C" alt="GitHub statistics" />
+<!-- GitHub Stats -->
+<img
+  width="49%"
+  src="https://github-stats-extended.vercel.app/api?username=maanncodes09&show_icons=true&hide_border=true&bg_color=0D0B0F&title_color=C58A9B&icon_color=8FAF9A&text_color=D8D1D5"
+  alt="GitHub statistics"
+/>
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=maanncodes09&layout=compact&hide_border=true&bg_color=0D0B0F&title_color=C58A9B&text_color=D8D1D5" alt="Most used languages" />
+<!-- Most Used Languages -->
+<img
+  width="49%"
+  src="https://github-stats-extended.vercel.app/api/top-langs/?username=maanncodes09&layout=compact&hide_border=true&bg_color=0D0B0F&title_color=C58A9B&text_color=D8D1D5"
+  alt="Most used languages"
+/>
 
 <br/>
 
-<img width="70%" src="https://streak-stats.demolab.com?user=maanncodes09&hide_border=true&background=0D0B0F&ring=C58A9B&fire=C58A9B&currStreakLabel=C58A9B&sideLabels=D8D1D5&currStreakNum=D8D1D5&sideNums=D8D1D5&dates=8A838B" alt="GitHub contribution streak" />
-
-<br/>
-
-<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=maanncodes09&bg_color=0D0B0F&color=D8D1D5&line=8FAF9A&point=C58A9B&area=true&area_color=49313D&hide_border=true" alt="GitHub contribution activity graph" />
+<!-- Contribution Streak -->
+<img
+  width="70%"
+  src="https://streak-stats.demolab.com?user=maanncodes09&hide_border=true&background=0D0B0F&ring=C58A9B&fire=C58A9B&currStreakLabel=C58A9B&sideLabels=D8D1D5&currStreakNum=D8D1D5&sideNums=D8D1D5&dates=8A838B"
+  alt="GitHub contribution streak"
+/>
 
 </div>
-
----
 
 ## 06 / MILESTONES
 
