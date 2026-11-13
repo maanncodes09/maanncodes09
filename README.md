@@ -1,200 +1,212 @@
- <div align="center">
-<img src="mansi-animated-hero.gif" width="100%" alt="Mansi Agarwal — Build, Solve, Evolve"/>
-</div>
+ 
+<div align="center">
+
+<img src="mansi-animated-hero.gif" width="100%" alt="Mansi animated coding banner" />
 
 <br/>
 
+# MANSI
+
+### BUILD. SOLVE. EVOLVE.
+
+**Software Engineering · Backend Systems · Full-Stack Development**
+
+[GitHub](https://github.com/maanncodes09) &nbsp;·&nbsp; [Repositories](https://github.com/maanncodes09?tab=repositories) &nbsp;·&nbsp; [LinkedIn](YOUR_LINKEDIN_URL) &nbsp;·&nbsp; [Email](mailto:YOUR_EMAIL)
+
+<br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=17&duration=3000&pause=900&color=C58A9B&center=true&vCenter=true&width=650&lines=Building+things+that+solve+real+problems.;Exploring+backend+engineering+and+system+design.;Learning.+Building.+Getting+better+every+day." alt="Typing introduction" />
+
+</div>
+
+---
+
 <table>
 <tr>
-<td width="64%" valign="middle">
+<td width="58%" valign="top">
 
-<sub>01 / ABOUT</sub>
+## 01 / ABOUT
 
-# Building things that matter.
+I'm a Computer Science undergraduate interested in building practical software, understanding how systems work behind the scenes, and becoming a stronger engineer with every project.
 
-I'm Mansi, a Computer Science undergraduate interested in backend engineering, full-stack development and solving real-world problems through software.
-
-<a href="https://github.com/maanncodes09?tab=repositories">EXPLORE MY WORK ↗</a>
+- Focused on **backend engineering and full-stack development**
+- Building applications with the **MERN stack**
+- Learning **Java, Spring Boot, REST APIs and system design**
+- Practising **Data Structures and Algorithms**
+- Interested in scalable systems, clean architecture and real-world problem solving
 
 </td>
-<td width="36%" valign="middle">
+<td width="42%" valign="top">
 
-<sub>02 / ALWAYS LEARNING</sub>
+## 02 / CURRENTLY EXPLORING
 
-**Engineering, one layer deeper.**
+**Backend Engineering**
+- Java · Spring Boot
+- REST API design
+- Authentication and authorization
 
-Java · DSA · Backend Systems
+**Core Computer Science**
+- DSA · Operating Systems
+- DBMS · Computer Networks
 
-<hr/>
-
-<sub>03 / ACHIEVEMENTS</sub>
-
-**Learning. Building. Contributing.**
-
-GSSoC · SheFi · MongoDB
+**Engineering Practices**
+- Git · Postman
+- Database design
+- System design fundamentals
 
 </td>
 </tr>
 </table>
 
-<br/>
+---
 
-<div align="center">
-
-<sub>04 / TECHNOLOGY STACK</sub>
-
-<br/><br/>
-
-`Java` &nbsp; `JavaScript` &nbsp; `React` &nbsp; `Node.js`
-
-`Express` &nbsp; `MongoDB` &nbsp; `PostgreSQL`
-
-`Git` &nbsp; `GitHub` &nbsp; `Postman`
-
-</div>
-
-<br/>
-
-## 05 / SELECTED WORK
+## 03 / SELECTED PROJECTS
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-<sub>01 / FULL-STACK DEVELOPMENT</sub>
+### 01. Enterprise Helpdesk & Incident Management
 
-### Personal Finance Dashboard
+**MERN Stack · Collaborative Project**
 
-A financial management platform for tracking income, expenses, budgets and savings.
+A platform concept for managing support requests, incident workflows and issue resolution.
 
 `React` `Node.js` `Express` `MongoDB`
 
-<a href="https://github.com/maanncodes09?tab=repositories">EXPLORE ↗</a>
+*Currently in development.*
 
 </td>
 <td width="50%" valign="top">
 
-<sub>02 / PRODUCT DEVELOPMENT</sub>
+### 02. Personal Finance Dashboard
 
-### FlowBoard
+**MERN Stack · Personal Project**
 
-A Kanban-style task management application with drag-and-drop, filtering, labels and undo/redo.
+A finance management application to track income, expenses, budgets and savings through an analytics-focused dashboard.
+
+`React` `Node.js` `Express` `MongoDB`
+
+*Currently in development.*
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 03. TaskFlow
+
+**Smart Task Management System**
+
+A task management project focused on organising work and improving productivity.
 
 `JavaScript` `HTML` `CSS`
 
-<a href="https://github.com/maanncodes09/TaskFlow---Smart-Task-Management-System">EXPLORE ↗</a>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-<sub>03 / FULL-STACK DEVELOPMENT</sub>
-
-### Food²
-
-Restaurant application exploring menus, reservations, authentication and backend integration.
-
-`Node.js` `Express` `MongoDB`
-
-<a href="https://github.com/maanncodes09?tab=repositories">EXPLORE ↗</a>
+[View repository](https://github.com/maanncodes09/TaskFlow---Smart-Task-Management-System)
 
 </td>
 <td width="50%" valign="top">
 
-<sub>04 / BACKEND ENGINEERING</sub>
+### 04. Food²
 
-### Enterprise Helpdesk
+**Restaurant Management Platform**
 
-Collaborative incident management project exploring ticket workflows, role-based access and backend architecture.
+A restaurant web application with menu browsing, reservation functionality, authentication and backend API integration.
 
-`MERN` `REST APIs` `Database Design`
+`JavaScript` `Node.js` `Express` `MongoDB`
 
-<sub>IN DEVELOPMENT</sub>
+[Explore my repositories](https://github.com/maanncodes09?tab=repositories)
 
 </td>
 </tr>
 </table>
 
-<br/>
+---
 
-## 06 / ENGINEERING ACTIVITY
+## 04 / TECHNOLOGY STACK
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=maanncodes09&show_icons=true&hide_border=true&bg_color=0B0C12&title_color=C7A6B8&icon_color=8FAF9B&text_color=D8D4D9" height="165"/>
+**LANGUAGES**
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=maanncodes09&layout=compact&hide_border=true&bg_color=0B0C12&title_color=C7A6B8&text_color=D8D4D9" height="165"/>
-
-<br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=maanncodes09&hide_border=true&background=0B0C12&ring=C7A6B8&fire=B98275&currStreakLabel=C7A6B8&sideLabels=D8D4D9&dates=96909A" width="85%"/>
+<img src="https://skillicons.dev/icons?i=java,js,html,css" alt="Java, JavaScript, HTML and CSS" />
 
 <br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=maanncodes09&bg_color=0B0C12&color=D8D4D9&line=8FAF9B&point=C7A6B8&area=true&hide_border=true" width="100%"/>
+**FRAMEWORKS & RUNTIME**
+
+<img src="https://skillicons.dev/icons?i=react,nodejs,express,bootstrap,spring" alt="React, Node.js, Express, Bootstrap and Spring" />
+
+<br/>
+
+**DATABASES & TOOLS**
+
+<img src="https://skillicons.dev/icons?i=mongodb,postgres,git,github,postman,vscode" alt="MongoDB, PostgreSQL, Git, GitHub, Postman and VS Code" />
 
 </div>
 
+---
+
+## 05 / GITHUB ANALYTICS
+
+<div align="center">
+
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=maanncodes09&show_icons=true&hide_border=true&bg_color=0D0B0F&title_color=C58A9B&icon_color=8FAF9A&text_color=D8D1D5&ring_color=9B718C" alt="GitHub statistics" />
+
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=maanncodes09&layout=compact&hide_border=true&bg_color=0D0B0F&title_color=C58A9B&text_color=D8D1D5" alt="Most used languages" />
+
 <br/>
 
-## 07 / COMMUNITY
+<img width="70%" src="https://streak-stats.demolab.com?user=maanncodes09&hide_border=true&background=0D0B0F&ring=C58A9B&fire=C58A9B&currStreakLabel=C58A9B&sideLabels=D8D1D5&currStreakNum=D8D1D5&sideNums=D8D1D5&dates=8A838B" alt="GitHub contribution streak" />
+
+<br/>
+
+<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=maanncodes09&bg_color=0D0B0F&color=D8D1D5&line=8FAF9A&point=C58A9B&area=true&area_color=49313D&hide_border=true" alt="GitHub contribution activity graph" />
+
+</div>
+
+---
+
+## 06 / MILESTONES
 
 <table>
 <tr>
-<td width="50%">
+<td width="33%" align="center" valign="top">
 
-**GirlScript Summer of Code 2026**
+**GirlScript Summer of Code**
 
-Contributor
-
-</td>
-<td width="50%">
-
-**SheFi Season 16**
-
-Scholarship recipient
+2026 Contributor
 
 </td>
-</tr>
-<tr>
-<td>
+<td width="33%" align="center" valign="top">
 
-**MongoDB Student Basic**
+**SheFi**
 
-Certification
+Season 16 · Full Scholarship
 
 </td>
-<td>
+<td width="33%" align="center" valign="top">
 
-**Current focus**
+**MongoDB**
 
-Java · DSA · Backend Engineering
+Student Basic Certification
 
 </td>
 </tr>
 </table>
 
-<br/>
-
-## 08 / CONNECT
+---
 
 <div align="center">
 
-<a href="https://github.com/maanncodes09">
-<img src="https://img.shields.io/badge/GitHub-17141B?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-<a href="https://www.linkedin.com/">
-<img src="https://img.shields.io/badge/LinkedIn-17141B?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-<a href="mailto:YOUR_EMAIL@example.com">
-<img src="https://img.shields.io/badge/Email-17141B?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
+## LET'S CONNECT
 
-<br/><br/>
+**Always open to learning, building and collaborating on meaningful projects.**
 
-**BUILD. SOLVE. EVOLVE.**
+[GitHub](https://github.com/maanncodes09) &nbsp;·&nbsp; [LinkedIn](YOUR_LINKEDIN_URL) &nbsp;·&nbsp; [Email](mailto:YOUR_EMAIL)
 
-<sub>DESIGN · CODE · CREATE</sub>
+<br/>
+
+<sub>BUILD WITH CURIOSITY. ENGINEER WITH INTENTION.</sub>
 
 </div>
