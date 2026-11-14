@@ -20,13 +20,12 @@
 
 ---
 
-<div align="left">
-<img src="https://img.shields.io/badge/01%20%2F%20ABOUT-713044?style=for-the-badge" />
-</div>
 
-<table>
-<tr>
-<td width="58%" valign="top">
+<div align="left">
+
+<img src="https://img.shields.io/badge/01%20%2F%20ABOUT-713044?style=for-the-badge" />
+
+</div>
 
 I'm a Computer Science undergraduate interested in building practical software, understanding how systems work behind the scenes, and becoming a stronger engineer with every project.
 
@@ -36,41 +35,25 @@ I'm a Computer Science undergraduate interested in building practical software, 
 - Practising **Data Structures and Algorithms**
 - Interested in scalable systems, clean architecture and real-world problem solving
 
-</td>
-<td width="42%" valign="top">
+<br/>
 
-<div align="left">
 <img src="https://img.shields.io/badge/02%20%2F%20CURRENTLY%20EXPLORING-557A64?style=for-the-badge" />
-</div>
 
-**Backend Engineering**
-- Java · Spring Boot
-- REST API design
-- Authentication and authorization
+### <img src="https://img.shields.io/badge/BACKEND-713044?style=flat-square" />
 
-**Core Computer Science**
-- DSA · Operating Systems
-- DBMS · Computer Networks
+Java · Spring Boot · REST API Design · Authentication and Authorization
 
-**Engineering Practices**
-- Git · Postman
-- Database design
-- System design fundamentals
+### <img src="https://img.shields.io/badge/CORE%20COMPUTER%20SCIENCE-765477?style=flat-square" />
 
-</td>
-</tr>
-</table>
+DSA · Operating Systems · DBMS · Computer Networks
+
+### <img src="https://img.shields.io/badge/ENGINEERING%20PRACTICES-557A64?style=flat-square" />
+
+Git · Postman · Database Design · System Design Fundamentals
+
+<br/>
 
 ---
-
-<div align="left">
-<img src="https://img.shields.io/badge/03%20%2F%20SELECTED%20PROJECTS-765477?style=for-the-badge" />
-</div>
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
 ### 01. Enterprise Helpdesk & Incident Management
 
 <img src="https://img.shields.io/badge/COLLABORATIVE%20PROJECT-713044?style=flat-square" />
