@@ -27,9 +27,6 @@
 
 ## 01 / ABOUT
 
-<div align="left">
-  <img src="https://img.shields.io/badge/01%20%2F%20ABOUT-713044?style=for-the-badge&labelColor=713044" />
-
 
 
 I'm a Computer Science undergraduate interested in building practical software, understanding how systems work behind the scenes, and becoming a stronger engineer with every project.
@@ -42,7 +39,7 @@ I'm a Computer Science undergraduate interested in building practical software, 
 
 </td>
 <td width="42%" valign="top">
-</div>
+
 
 ## 02 / CURRENTLY EXPLORING
 
